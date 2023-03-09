@@ -1,0 +1,56 @@
+ 
+ .App {
+  
+  display:flex;
+  flex-wrap: wrap; 
+  border:2px solid gold;  
+  background-color: gray; 
+  border-radius: 10px;
+  justify-content: space-around;
+} 
+.Fam{  
+  padding: 5px;;
+  border-radius: 10px; 
+  border:2px solid blue; 
+  margin:5px;  
+  background-color: bisque;
+  text-align: center; 
+  width: 300px; 
+  
+}  
+.Fam:hover{ 
+  cursor: pointer; 
+  margin-top: 2px;
+}
+.pay{ 
+  color: gold;
+} 
+h4{ 
+  color: blue;
+} 
+.Line-1{ 
+  height: 1px;  
+  background: black;
+}
+
+h2{   
+   
+  margin-left:50px;
+  padding: 5px;
+  text-align: left;
+}   
+
+
+button{   
+  width: 150px; 
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color:gray; 
+  
+  font-size: x-small;
+  }   
+  button:hover{ 
+    background-color:blue; 
+    cursor: pointer;
+  }
+  
